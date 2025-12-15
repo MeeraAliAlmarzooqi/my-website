@@ -1,0 +1,104 @@
+.mainbody {
+    background-image: url("leaves.jpg");
+    height: 100vh;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px 10px;
+}
+
+#Glint {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+
+#welcome {
+    color: rgb(203, 203, 203);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.descreption {
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.button1,.button2 {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyr {
+    display: none;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+@media(min-width:780px) {
+    #welcome {
+        margin-left: 180px;
+        font-size: 30px;
+         text-align:left;
+    }
+
+    .descreption {
+        margin-left: 180px;
+        font-size: 60px;
+        text-align:left;
+        max-width: 870px;
+    }
+
+    .icon {
+        margin-top: 40px;
+        color: white;
+        margin-right: 50px;
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 15px;
+    }
+
+    .bodyr {
+        display: block;
+    }
+
+    .buttons {
+        margin-top: 90px;
+    
+    }
+
+    .button1 {
+        margin-left: 185px;
+        width: auto;
+    }
+
+    .button2 {
+        margin-left: 10px;
+        width: auto;
+    }
+}
