@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.section1 {
+    background-image: url("flower.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainbody2 {
+    background-color: rgb(255, 240, 255);
+    min-height: 100vh;
+    background-size: cover;
+    padding: 10px 10px;
+
+}
+
+
+.body3 {
+    background-color: white;
+    min-height: 100vh;
+    background-size: cover;
+    margin: auto;
+}
+
+.body4{
+    background-color:rgb(204, 173, 197);
+    min-height: 100vh;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+ padding-top: 100px;
+ padding-right: 200px;
+
+}
+
+.quicklinks,.information{
+    color:rgb(59, 46, 57);
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+    
+.right-side{
+    display: flex;
+    gap: 150px;
+}
+.contact{
+    color:rgb(59, 46, 57);
+    font-size: 25px;
+}
+.descreption4{
+    color: white;
+    font-size: 35px;
+    margin-top: 20px;
+    max-width: 260px;
+}
+
+.call-button{
+    margin-top: 30px;
+    border-radius: 90px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.email{
+   color:rgb(59, 46, 57);
+    font-size: 25px;
+   padding-top: 100px;
+}
+.myemail{
+    margin-top: 30px;
+    border-radius: 90px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+.image img {
+    max-width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.images {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 70vw;
+    margin: auto;
+  margin-top: -150px;
+}
+
+.intro3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 80px ;
+    color: rgb(116, 116, 116);
+}
+
+.description3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.greeting {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 60px;
+    padding: 10px 10px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: rgb(185, 95, 125);
+    border-bottom: 1px solid rgb(185, 95, 125);
+    width: max-content;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+
+.section2 {
+   text-align: center;
+}
+.section3 {
+    background-color: rgb(230, 230, 230);
+min-height: 50vh;
+    text-align: center;
+    padding-bottom: 140px;
+   
+}
+
+.description2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ARnumber,
+.cotnumber,
+.pcnumber,
+.hcnumber {
+    font-size: 50px;
+    color: rgb(185, 95, 125);
+    padding: 20px;
+
+
+}
+
+.first {
+    padding: 20px;
+}
+
+.second,
+.third,
+.fourth {
+    border-left: 1px solid rgb(185, 95, 125);
+    margin-left: 10px;
+    padding: 20px;
+
+}
+
+.awardreceived,
+.cupoftea,
+.projectcompleted,
+.happyclient {
+    margin-top: 8px;
+}
+
+#Glint {
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+#welcome {
+    color: rgb(121, 121, 121);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.descreption {
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.button1,
+.button2 {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyr {
+    display: none;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+@media(min-width:780px) {
+    #welcome {
+        margin-left: 180px;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .descreption {
+        margin-left: 180px;
+        font-size: 60px;
+        text-align: left;
+        max-width: 870px;
+    }
+
+    .icon {
+        margin-top: 40px;
+        color: rgb(0, 0, 0);
+        margin-right: 50px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 30px;
+        padding: 15px;
+    }
+
+    .bodyr {
+        display: block;
+    }
+
+    .buttons {
+        margin-top: 90px;
+
+    }
+
+    .button1 {
+        margin-left: 185px;
+        width: auto;
+    }
+
+    .button2 {
+        margin-left: 10px;
+        width: auto;
+    }
+}
